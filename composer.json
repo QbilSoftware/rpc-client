@@ -1,0 +1,20 @@
+{
+    "name": "qbil-software/rpc-client",
+    "description": "PHP IXR RPC client abstraction for Qbil-Trade",
+    "type": "library",
+    "license": "proprietary",
+    "autoload": {
+        "psr-4": {
+            "QbilSoftware\\RpcClient\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Faizan Akram",
+            "email": "hello@faizanakram.me"
+        }
+    ],
+    "require": {
+        "kissifrot/php-ixr": "^1.8"
+    }
+}
