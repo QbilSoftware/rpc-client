@@ -1,6 +1,6 @@
 <?php
 
-namespace Qbil\RpcClient;
+namespace QbilSoftware\RpcClient;
 
 use IXR\Client\Client;
 use IXR\Client\ClientSSL;
