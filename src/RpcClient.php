@@ -37,10 +37,19 @@ class RpcClient implements RemoteServerCommunicationClient
         $this->client->query(self::END_POINT_PREFIX.$route, $parametersWithSecret);
 
         if ($this->client->isError()) {
-            return [];
+            return [
+                'status' => 'FAIL',
+                'message' => $this->client->getErrorMessage(),
+            ];
         }
 
-        return $this->client->getResponse();
+        $response = $this->client->getResponse() ?? [];
+
+        if (is_scalar($response)) {
+            return [$response];
+        }
+
+        return $response;
     }
 
     private static function isSecureUri(string $uri): bool
