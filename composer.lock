@@ -4,20 +4,20 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "a499d7aa081b5d1a45e332c10efda592",
+    "content-hash": "11862abf3463982972334586bef56139",
     "packages": [
         {
             "name": "kissifrot/php-ixr",
             "version": "dev-master",
             "source": {
                 "type": "git",
-                "url": "https://github.com/faizanakram99/php-ixr.git",
-                "reference": "63bc74d535e4cc20ace475e2bf02fcca67e3f46b"
+                "url": "https://github.com/kissifrot/php-ixr.git",
+                "reference": "1832d15640672331125758cd9e9f372a02bfe046"
             },
             "dist": {
                 "type": "zip",
-                "url": "https://api.github.com/repos/faizanakram99/php-ixr/zipball/63bc74d535e4cc20ace475e2bf02fcca67e3f46b",
-                "reference": "63bc74d535e4cc20ace475e2bf02fcca67e3f46b",
+                "url": "https://api.github.com/repos/kissifrot/php-ixr/zipball/1832d15640672331125758cd9e9f372a02bfe046",
+                "reference": "1832d15640672331125758cd9e9f372a02bfe046",
                 "shasum": ""
             },
             "require": {
@@ -31,10 +31,11 @@
             "type": "library",
             "autoload": {
                 "psr-4": {
-                    "IXR\\tests\\": "tests/",
-                    "IXR\\": "src/"
+                    "IXR\\": "src/",
+                    "IXR\\tests\\": "tests/"
                 }
             },
+            "notification-url": "https://packagist.org/downloads/",
             "license": [
                 "BSD-3-Clause"
             ],
@@ -53,9 +54,10 @@
                 "xmlrpc"
             ],
             "support": {
-                "source": "https://github.com/faizanakram99/php-ixr/tree/master"
+                "issues": "https://github.com/kissifrot/php-ixr/issues",
+                "source": "https://github.com/kissifrot/php-ixr/tree/master"
             },
-            "time": "2023-08-23T17:01:47+00:00"
+            "time": "2023-09-03T07:45:43+00:00"
         }
     ],
     "packages-dev": [],

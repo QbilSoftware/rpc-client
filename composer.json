@@ -16,11 +16,5 @@
     ],
     "require": {
         "kissifrot/php-ixr": "dev-master as 2.0"
-    },
-    "repositories": [
-        {
-            "type": "vcs",
-            "url": "https://github.com/faizanakram99/php-ixr"
-        }
-    ]
+    }
 }
